@@ -27,11 +27,11 @@ data.raw.item["processing-unit"].stack_size = 2000
 data.raw.item["advanced-processing-unit"].stack_size = 2000
 data.raw.item["resin"].stack_size = 2000
 data.raw.item["rubber"].stack_size = 2000
-data.raw.item["synthetic-wood"].stack_size = 500
-data.raw.item["silicon-wafer"].stack_size = 500
+data.raw.item["synthetic-wood"].stack_size = 1000
+data.raw.item["silicon-wafer"].stack_size = 1000
 data.raw.item["solder-alloy"].stack_size = 2000
-data.raw.item["raw-wood"].stack_size = 500------------------------also modify in vanilla.lua
-data.raw.item["wood"].stack_size = 500----------------------------also modify in vanilla.lua
+data.raw.item["raw-wood"].stack_size = 1000------------------------also modify in vanilla.lua
+data.raw.item["wood"].stack_size = 1000----------------------------also modify in vanilla.lua
 
 --bobenemies
 data.raw.item["alien-artifact-red"].stack_size = 500
@@ -327,31 +327,31 @@ data.raw.item["water-pump-2"].stack_size = 50
 data.raw.item["water-pump-3"].stack_size = 50
 data.raw.item["water-pump-4"].stack_size = 50
 data.raw.item["void-pump"].stack_size = 50
-data.raw.item["gem-ore"].stack_size = 500
-data.raw.item["ruby-ore"].stack_size = 500
-data.raw.item["sapphire-ore"].stack_size = 500
-data.raw.item["emerald-ore"].stack_size = 500
-data.raw.item["amethyst-ore"].stack_size = 500
-data.raw.item["topaz-ore"].stack_size = 500
-data.raw.item["diamond-ore"].stack_size = 500
-data.raw.item["ruby-3"].stack_size = 500
-data.raw.item["sapphire-3"].stack_size = 500
-data.raw.item["emerald-3"].stack_size = 500
-data.raw.item["amethyst-3"].stack_size = 500
-data.raw.item["topaz-3"].stack_size = 500
-data.raw.item["diamond-3"].stack_size = 500
-data.raw.item["ruby-4"].stack_size = 500
-data.raw.item["sapphire-4"].stack_size = 500
-data.raw.item["emerald-4"].stack_size = 500
-data.raw.item["amethyst-4"].stack_size = 500
-data.raw.item["topaz-4"].stack_size = 500
-data.raw.item["diamond-4"].stack_size = 500
-data.raw.item["ruby-5"].stack_size = 500
-data.raw.item["sapphire-5"].stack_size = 500
-data.raw.item["emerald-5"].stack_size = 500
-data.raw.item["amethyst-5"].stack_size = 500
-data.raw.item["topaz-5"].stack_size = 500
-data.raw.item["diamond-5"].stack_size = 500
+data.raw.item["gem-ore"].stack_size = 1000
+data.raw.item["ruby-ore"].stack_size = 1000
+data.raw.item["sapphire-ore"].stack_size = 1000
+data.raw.item["emerald-ore"].stack_size = 1000
+data.raw.item["amethyst-ore"].stack_size = 1000
+data.raw.item["topaz-ore"].stack_size = 1000
+data.raw.item["diamond-ore"].stack_size = 1000
+data.raw.item["ruby-3"].stack_size = 1000
+data.raw.item["sapphire-3"].stack_size = 1000
+data.raw.item["emerald-3"].stack_size = 1000
+data.raw.item["amethyst-3"].stack_size = 1000
+data.raw.item["topaz-3"].stack_size = 1000
+data.raw.item["diamond-3"].stack_size = 1000
+data.raw.item["ruby-4"].stack_size = 1000
+data.raw.item["sapphire-4"].stack_size = 1000
+data.raw.item["emerald-4"].stack_size = 1000
+data.raw.item["amethyst-4"].stack_size = 1000
+data.raw.item["topaz-4"].stack_size = 1000
+data.raw.item["diamond-4"].stack_size = 1000
+data.raw.item["ruby-5"].stack_size = 1000
+data.raw.item["sapphire-5"].stack_size = 1000
+data.raw.item["emerald-5"].stack_size = 1000
+data.raw.item["amethyst-5"].stack_size = 1000
+data.raw.item["topaz-5"].stack_size = 1000
+data.raw.item["diamond-5"].stack_size = 1000
 data.raw.item["gold-ore"].stack_size = 1000
 data.raw.item["lead-ore"].stack_size = 1000
 data.raw.item["silver-ore"].stack_size = 1000
@@ -398,8 +398,8 @@ data.raw.item["resin"].stack_size = 2000
 data.raw.item["rubber"].stack_size = 2000
 data.raw.item["glass"].stack_size = 2000
 data.raw.item["silicon-wafer"].stack_size = 2000
-data.raw.item["lithium-cobalt-oxide"].stack_size = 500
-data.raw.item["synthetic-wood"].stack_size = 500
+data.raw.item["lithium-cobalt-oxide"].stack_size = 1000
+data.raw.item["synthetic-wood"].stack_size = 1000
 data.raw.item["polishing-compound"].stack_size = 2000
 data.raw.item["gas-canister"].stack_size = 2000
 data.raw.item["empty-canister"].stack_size = 2000
@@ -581,6 +581,7 @@ data.raw.armor["heavy-armor-2"].resistances =
   },
 }
 data.raw.armor["heavy-armor-2"].durability = 8000
+
 --HEAVY ARMOR III
 data.raw.armor["heavy-armor-3"].resistances =
 {
@@ -610,6 +611,7 @@ data.raw.armor["heavy-armor-3"].resistances =
   }
 }
 data.raw.armor["heavy-armor-3"].durability = 12000
+
 --BOB POWER MKIII
 data.raw.armor["bob-power-armor-mk3"].resistances =
 {
@@ -650,7 +652,9 @@ data.raw.armor["bob-power-armor-mk3"].resistances =
   }
 }
 data.raw.armor["bob-power-armor-mk3"].durability = 60000
-data.raw.armor["bob-power-armor-mk3"].equipment_grid = {width = 18, height = 18}
+data.raw.armor["bob-power-armor-mk3"].equipment_grid.width = 18
+data.raw.armor["bob-power-armor-mk3"].equipment_grid.height = 18
+
 --BOB POWER MKIV
 data.raw.armor["bob-power-armor-mk4"].resistances =
 {
@@ -691,7 +695,9 @@ data.raw.armor["bob-power-armor-mk4"].resistances =
   }
 }
 data.raw.armor["bob-power-armor-mk4"].durability = 80000
-data.raw.armor["bob-power-armor-mk4"].equipment_grid = {width = 20, height = 20}
+data.raw.armor["bob-power-armor-mk4"].equipment_grid.width = 20
+data.raw.armor["bob-power-armor-mk4"].equipment_grid.height = 20
+
 --BOB POWER MKV
 data.raw.armor["bob-power-armor-mk5"].resistances =
 {
@@ -732,4 +738,5 @@ data.raw.armor["bob-power-armor-mk5"].resistances =
   }
 }
 data.raw.armor["bob-power-armor-mk5"].durability = 80000
-data.raw.armor["bob-power-armor-mk5"].equipment_grid = {width = 20, height = 20}
+data.raw.armor["bob-power-armor-mk5"].equipment_grid.width = 20
+data.raw.armor["bob-power-armor-mk5"].equipment_grid.height = 20

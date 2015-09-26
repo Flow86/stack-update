@@ -1,8 +1,8 @@
 {
   "name": "stack-update",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "title": "Stack Update",
   "author": "Victor Ros",
-  "description": "Change items stack for vanilla game.",
+  "description": "Change items stack values.",
   "dependencies": ["base >= 0.12"]
 }

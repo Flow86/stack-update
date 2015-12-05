@@ -2,4 +2,4 @@
 --CHANGE STACK VALUES
 
 --Items
-data.raw.item["reverse-factory"].stack_size = StackUpdate["default"]
+if data.raw.item["reverse-factory"] then data.raw.item["reverse-factory"].stack_size = StackUpdate["default"] end

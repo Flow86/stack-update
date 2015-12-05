@@ -10,11 +10,13 @@ data.raw.item["stone"].stack_size = StackUpdate["raw-materials"]
 data.raw.item["iron-ore"].stack_size = StackUpdate["raw-materials"]
 data.raw.item["copper-ore"].stack_size = StackUpdate["raw-materials"]
 data.raw.item["concrete"].stack_size = StackUpdate["raw-materials"]
+
 --MATERIALS
 data.raw.item["wood"].stack_size = StackUpdate["materials"]
 data.raw.item["iron-plate"].stack_size = StackUpdate["materials"]
 data.raw.item["copper-plate"].stack_size = StackUpdate["materials"]
 data.raw.item["steel-plate"].stack_size = StackUpdate["materials"]
+
 --INTERMEDIATES
 data.raw.item["iron-stick"].stack_size = StackUpdate["intermediates"]
 data.raw.item["iron-gear-wheel"].stack_size = StackUpdate["intermediates"]
@@ -31,6 +33,7 @@ data.raw.item["flying-robot-frame"].stack_size = StackUpdate["intermediates"]
 data.raw.item["sulfur"].stack_size = StackUpdate["intermediates"]
 data.raw.item["advanced-circuit"].stack_size = StackUpdate["intermediates"]
 data.raw.item["processing-unit"].stack_size = StackUpdate["intermediates"]
+
 --CHESTS
 data.raw.item["wooden-chest"].stack_size = StackUpdate["storage"]
 data.raw.item["iron-chest"].stack_size = StackUpdate["storage"]
@@ -40,13 +43,16 @@ data.raw.item["logistic-chest-passive-provider"].stack_size = StackUpdate["stora
 data.raw.item["logistic-chest-active-provider"].stack_size = StackUpdate["storage"]
 data.raw.item["logistic-chest-storage"].stack_size = StackUpdate["storage"]
 data.raw.item["logistic-chest-requester"].stack_size = StackUpdate["storage"]
+
 --FURNACES
 data.raw.item["stone-furnace"].stack_size = StackUpdate["furnaces"]
 data.raw.item["steel-furnace"].stack_size = StackUpdate["furnaces"]
 data.raw.item["electric-furnace"].stack_size = StackUpdate["furnaces"]
+
 --DRILLS
 data.raw.item["burner-mining-drill"].stack_size = StackUpdate["drills"]
 data.raw.item["basic-mining-drill"].stack_size = StackUpdate["drills"]
+
 --BELTS
 data.raw.item["basic-transport-belt"].stack_size = StackUpdate["belt"]
 data.raw.item["fast-transport-belt"].stack_size = StackUpdate["belt"]
@@ -57,18 +63,21 @@ data.raw.item["express-splitter"].stack_size = StackUpdate["splitter"]
 data.raw.item["basic-transport-belt-to-ground"].stack_size = StackUpdate["belt-to-ground"]
 data.raw.item["fast-transport-belt-to-ground"].stack_size = StackUpdate["belt-to-ground"]
 data.raw.item["express-transport-belt-to-ground"].stack_size = StackUpdate["belt-to-ground"]
+
 --INSERTERS
 data.raw.item["burner-inserter"].stack_size = StackUpdate["inserters"]
 data.raw.item["basic-inserter"].stack_size = StackUpdate["inserters"]
 data.raw.item["long-handed-inserter"].stack_size = StackUpdate["inserters"]
 data.raw.item["fast-inserter"].stack_size = StackUpdate["inserters"]
 data.raw.item["smart-inserter"].stack_size = StackUpdate["inserters"]
+
 --FLUIDS
 data.raw.item["offshore-pump"].stack_size = StackUpdate["default"]
 data.raw.item["pipe"].stack_size = StackUpdate["pipe"]
 data.raw.item["pipe-to-ground"].stack_size = StackUpdate["pipe-to-ground"]
 data.raw.item["storage-tank"].stack_size = StackUpdate["storage"]
 data.raw.item["small-pump"].stack_size = StackUpdate["default"]
+
 --ELECTRICITY
 data.raw.item["boiler"].stack_size = StackUpdate["electricity"]
 data.raw.item["steam-engine"].stack_size = StackUpdate["electricity"]
@@ -79,12 +88,15 @@ data.raw.item["substation"].stack_size = StackUpdate["electricity"]
 data.raw.item["small-lamp"].stack_size = StackUpdate["electricity"]
 data.raw.item["solar-panel"].stack_size = StackUpdate["electricity"]
 data.raw.item["basic-accumulator"].stack_size = StackUpdate["electricity"]
+
 --ASSEMBLING MACHINES
 data.raw.item["assembling-machine-1"].stack_size = StackUpdate["default"]
 data.raw.item["assembling-machine-2"].stack_size = StackUpdate["default"]
 data.raw.item["assembling-machine-3"].stack_size = StackUpdate["default"]
+
 --TOOLS
 data.raw["repair-tool"]["repair-pack"].stack_size = StackUpdate["tools"]
+
 --TRAINS
 data.raw.item["diesel-locomotive"].stack_size = StackUpdate["vehicles"]
 data.raw.item["cargo-wagon"].stack_size = StackUpdate["default"]
@@ -93,12 +105,15 @@ data.raw.item["curved-rail"].stack_size = StackUpdate["train"] / 4
 data.raw.item["train-stop"].stack_size = StackUpdate["default"]
 data.raw.item["rail-signal"].stack_size = StackUpdate["train"] / 2
 data.raw.item["rail-chain-signal"].stack_size = StackUpdate["train"] / 2
+
 --WALLS
 data.raw.item["stone-wall"].stack_size = StackUpdate["wall"]
 data.raw.item["gate"].stack_size = StackUpdate["wall"] / 5
+
 --VEHICLES
 data.raw.item["car"].stack_size = StackUpdate["vehicles"]
 data.raw.item["tank"].stack_size = StackUpdate["vehicles"]
+
 --TECHNOLOGY
 data.raw.item["alien-artifact"].stack_size = StackUpdate["materials"] / 2
 data.raw.item["lab"].stack_size = StackUpdate["default"]
@@ -106,8 +121,10 @@ data.raw.tool["science-pack-1"].stack_size = StackUpdate["science-pack"]
 data.raw.tool["science-pack-2"].stack_size = StackUpdate["science-pack"]
 data.raw.tool["science-pack-3"].stack_size = StackUpdate["science-pack"]
 data.raw.tool["alien-science-pack"].stack_size = StackUpdate["science-pack"]
+
 --MILITARY
 data.raw.item["radar"].stack_size = StackUpdate["default"]
+
 --PETROLE
 data.raw.item["pumpjack"].stack_size = StackUpdate["default"]
 data.raw.item["oil-refinery"].stack_size = StackUpdate["default"]
@@ -115,23 +132,27 @@ data.raw.item["chemical-plant"].stack_size = StackUpdate["default"]
 data.raw.item["empty-barrel"].stack_size = StackUpdate["intermediates"]
 data.raw.item["crude-oil-barrel"].stack_size = StackUpdate["intermediates"]
 data.raw.item["solid-fuel"]. stack_size = StackUpdate["intermediates"]
+
 --ROBOT
 data.raw.item["roboport"].stack_size = StackUpdate["default"]
 data.raw.item["logistic-robot"].stack_size = StackUpdate["robot"]
 data.raw.item["construction-robot"].stack_size = StackUpdate["robot"]
 --data.raw.blueprint["blueprint"].stack_size = 1
 --data.raw["deconstruction-item"]["deconstruction-planner"].stack_size = 1
+
 --COMBINATOR
 data.raw.item["arithmetic-combinator"].stack_size= StackUpdate["combinator"]
 data.raw.item["decider-combinator"].stack_size= StackUpdate["combinator"]
 data.raw.item["constant-combinator"].stack_size= StackUpdate["combinator"]
 data.raw.item["low-density-structure"].stack_size = StackUpdate["combinator"]
+
 --SILO & ROCKET
 data.raw.item["rocket-silo"].stack_size = 1
 data.raw.item["rocket-fuel"].stack_size = StackUpdate["intermediates"]
 data.raw.item["rocket-control-unit"].stack_size = StackUpdate["intermediates"]
 data.raw.item["rocket-part"].stack_size = 5
 data.raw.item["satellite"].stack_size = 1
+
 --OTHER
 --data.raw.item["computer"].stack_size = 1
 --data.raw.item["small-plane"].stack_size = 1

@@ -2,4 +2,4 @@
 --CHANGE STACK VALUES
 
 --Items
-data.raw.item["RW_concrete-bridge"].stack_size = StackUpdate["raw-materials"]
+if data.raw.item["RW_concrete-bridge"] then data.raw.item["RW_concrete-bridge"].stack_size = StackUpdate["raw-materials"] end

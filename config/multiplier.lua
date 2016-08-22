@@ -16,6 +16,9 @@ StackUpdateMultiplier = {
             width = 2
         }
     },
+    capsule = {
+        stack_size = 10
+    },
     gun = {
         stack_size = 10,
         attack_parameters = {
@@ -25,10 +28,12 @@ StackUpdateMultiplier = {
     item = {
         stack_size = 20
     },
-    module = {
+    ["mining-tool"] = {
+        durability = 5,
+        speed = 5,
         stack_size = 10
     },
-    tool = {
+    module = {
         stack_size = 10
-    } 
+    }
 }

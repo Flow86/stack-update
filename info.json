@@ -5,5 +5,5 @@
   "author": "Victor Ros",
   "description": "This mod does 2 things : updates stack size for all items found and updates stats for armors, weapons and ammunitions. More information at https://github.com/VictorRos/stack-update",
   "license": "MIT License",
-  "dependencies": ["base >= 0.12"]
+  "dependencies": ["base >= 0.13"]
 }

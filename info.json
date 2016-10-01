@@ -1,9 +1,9 @@
 {
   "name": "stack-update",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "title": "Stack Update",
   "author": "Victor Ros",
   "description": "This mod does 2 things : updates stack size for all items found and updates stats for armors, weapons and ammunitions. More information at https://github.com/VictorRos/stack-update",
   "license": "MIT License",
-  "dependencies": ["base >= 0.13"]
+  "dependencies": ["base >= 0.14"]
 }
